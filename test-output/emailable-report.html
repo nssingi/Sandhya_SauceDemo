@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">SauceDemotest</td><td class="numi">32</td><td class="numi">32</td><td class="numi">0</td><td class="numi">0</td><td class="numi">10.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">SauceDemotest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="32">com.saucedemo.testobjects.AllFunctionalityTest</td><td><a href="#m1"><b>checkCartList</b>  </a></td><td class="numi">1</td><td>1578277237591</td><td class="numi">51</td></tr><tr class="passedodd"><td><a href="#m2"><b>checkOutShop</b>  </a></td><td class="numi">1</td><td>1578277237645</td><td class="numi">334</td></tr><tr class="passedodd"><td><a href="#m3"><b>clickFinish</b>  </a></td><td class="numi">1</td><td>1578277240255</td><td class="numi">1070</td></tr><tr class="passedodd"><td><a href="#m4"><b>isFnameEntered</b>  </a></td><td class="numi">1</td><td>1578277237983</td><td class="numi">707</td></tr><tr class="passedodd"><td><a href="#m5"><b>isItemTotalPresent</b>  </a></td><td class="numi">1</td><td>1578277239665</td><td class="numi">65</td></tr><tr class="passedodd"><td><a href="#m6"><b>isLnameEntered</b>  </a></td><td class="numi">1</td><td>1578277238692</td><td class="numi">52</td></tr><tr class="passedodd"><td><a href="#m7"><b>isPayInfoLabelPresent</b>  </a></td><td class="numi">1</td><td>1578277239331</td><td class="numi">98</td></tr><tr class="passedodd"><td><a href="#m8"><b>isPayInfoValuePresent</b>  </a></td><td class="numi">1</td><td>1578277239432</td><td class="numi">72</td></tr><tr class="passedodd"><td><a href="#m9"><b>isShipInformaitonLablePresent</b>  </a></td><td class="numi">1</td><td>1578277239506</td><td class="numi">76</td></tr><tr class="passedodd"><td><a href="#m10"><b>isShipInformaitonValuePresent</b>  </a></td><td class="numi">1</td><td>1578277239587</td><td class="numi">76</td></tr><tr class="passedodd"><td><a href="#m11"><b>isTaxPresent</b>  </a></td><td class="numi">1</td><td>1578277239732</td><td class="numi">68</td></tr><tr class="passedodd"><td><a href="#m12"><b>isTotalPresent</b>  </a></td><td class="numi">1</td><td>1578277239802</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m13"><b>isZipCodeeEntered</b>  </a></td><td class="numi">1</td><td>1578277238759</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m14"><b>isZipcodeValid</b>  </a></td><td class="numi">1</td><td>1578277238806</td><td class="numi">63</td></tr><tr class="passedodd"><td><a href="#m15"><b>validateAddToCart</b>  </a></td><td class="numi">1</td><td>1578277235756</td><td class="numi">1306</td></tr><tr class="passedodd"><td><a href="#m16"><b>validateAddToCartAndCheckout</b>  </a></td><td class="numi">1</td><td>1578277237077</td><td class="numi">380</td></tr><tr class="passedodd"><td><a href="#m17"><b>validateCartTitle</b>  </a></td><td class="numi">1</td><td>1578277237462</td><td class="numi">126</td></tr><tr class="passedodd"><td><a href="#m18"><b>validateCheckOutCompletePageTitle</b>  </a></td><td class="numi">1</td><td>1578277241327</td><td class="numi">81</td></tr><tr class="passedodd"><td><a href="#m19"><b>validateEnterCheckOutDetails</b>  </a></td><td class="numi">1</td><td>1578277238869</td><td class="numi">458</td></tr><tr class="passedodd"><td><a href="#m20"><b>validateItemTotalPattern</b>  </a></td><td class="numi">1</td><td>1578277240083</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m21"><b>validateLockedUser</b>  </a></td><td class="numi">1</td><td>1578277230810</td><td class="numi">912</td></tr><tr class="passedodd"><td><a href="#m22"><b>validateLogInPageTitle</b>  </a></td><td class="numi">1</td><td>1578277230756</td><td class="numi">39</td></tr><tr class="passedodd"><td><a href="#m23"><b>validatePayInfoLabel</b>  </a></td><td class="numi">1</td><td>1578277239864</td><td class="numi">63</td></tr><tr class="passedodd"><td><a href="#m24"><b>validatePayValue</b>  </a></td><td class="numi">1</td><td>1578277239927</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m25"><b>validateProblemUser</b>  </a></td><td class="numi">1</td><td>1578277231731</td><td class="numi">1496</td></tr><tr class="passedodd"><td><a href="#m26"><b>validateProduct</b>  </a></td><td class="numi">1</td><td>1578277235394</td><td class="numi">362</td></tr><tr class="passedodd"><td><a href="#m27"><b>validateShipInfoLabel</b>  </a></td><td class="numi">1</td><td>1578277239974</td><td class="numi">46</td></tr><tr class="passedodd"><td><a href="#m28"><b>validateShipInfoValue</b>  </a></td><td class="numi">1</td><td>1578277240020</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m29"><b>validateTaxPattern</b>  </a></td><td class="numi">1</td><td>1578277240130</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m30"><b>validateThankYouText</b>  </a></td><td class="numi">1</td><td>1578277241411</td><td class="numi">70</td></tr><tr class="passedodd"><td><a href="#m31"><b>validateTotalPattern</b>  </a></td><td class="numi">1</td><td>1578277240192</td><td class="numi">63</td></tr><tr class="passedodd"><td><a href="#m32"><b>validatestandardUser</b>  </a></td><td class="numi">1</td><td>1578277233232</td><td class="numi">2159</td></tr>
+</table>
+<h1>SauceDemotest</h1>
+<h2 id="m1">com.saucedemo.testobjects.AllFunctionalityTest:isZipcodeValid</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.saucedemo.testobjects.AllFunctionalityTest:isZipCodeeEntered</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.saucedemo.testobjects.AllFunctionalityTest:isPayInfoLabelPresent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.saucedemo.testobjects.AllFunctionalityTest:isPayInfoValuePresent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.saucedemo.testobjects.AllFunctionalityTest:clickFinish</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.saucedemo.testobjects.AllFunctionalityTest:isFnameEntered</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.saucedemo.testobjects.AllFunctionalityTest:validatestandardUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.saucedemo.testobjects.AllFunctionalityTest:validateLogInPageTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.saucedemo.testobjects.AllFunctionalityTest:validateItemTotalPattern</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.saucedemo.testobjects.AllFunctionalityTest:validateThankYouText</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.saucedemo.testobjects.AllFunctionalityTest:validateShipInfoValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.saucedemo.testobjects.AllFunctionalityTest:isShipInformaitonValuePresent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.saucedemo.testobjects.AllFunctionalityTest:isTaxPresent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.saucedemo.testobjects.AllFunctionalityTest:isItemTotalPresent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.saucedemo.testobjects.AllFunctionalityTest:validateAddToCartAndCheckout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.saucedemo.testobjects.AllFunctionalityTest:validateProduct</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.saucedemo.testobjects.AllFunctionalityTest:validateCartTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.saucedemo.testobjects.AllFunctionalityTest:checkCartList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.saucedemo.testobjects.AllFunctionalityTest:validateTaxPattern</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.saucedemo.testobjects.AllFunctionalityTest:checkOutShop</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.saucedemo.testobjects.AllFunctionalityTest:validateCheckOutCompletePageTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.saucedemo.testobjects.AllFunctionalityTest:isShipInformaitonLablePresent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.saucedemo.testobjects.AllFunctionalityTest:isTotalPresent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.saucedemo.testobjects.AllFunctionalityTest:validatePayInfoLabel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.saucedemo.testobjects.AllFunctionalityTest:validateEnterCheckOutDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.saucedemo.testobjects.AllFunctionalityTest:validateProblemUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.saucedemo.testobjects.AllFunctionalityTest:isLnameEntered</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.saucedemo.testobjects.AllFunctionalityTest:validateAddToCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.saucedemo.testobjects.AllFunctionalityTest:validateTotalPattern</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.saucedemo.testobjects.AllFunctionalityTest:validateLockedUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.saucedemo.testobjects.AllFunctionalityTest:validatePayValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.saucedemo.testobjects.AllFunctionalityTest:validateShipInfoLabel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
