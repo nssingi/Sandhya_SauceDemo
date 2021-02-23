@@ -24,6 +24,7 @@ public class CheckOutTest extends BaseTestObject {
 	
 	@BeforeMethod
 	public void beforeMethod() {
+		System.out.println("Checkout before method");
 		
 	}
 
