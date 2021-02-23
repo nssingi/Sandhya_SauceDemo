@@ -39,6 +39,7 @@ public class LoginTest extends BaseTestObject {
 	
 	@BeforeMethod
 	public void beforeMethod() {
+		System.out.println("before method is called in git commet");
 		
 	}
 	
